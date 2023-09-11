@@ -1,14 +1,22 @@
-{"bug_report_structure":["ID",
-                         "Title/Summary",
-                         "Preconditions",
-                         "Steps_to_reproduce",
-                         "Expected_result",
-                         "Actual_result",
-                         "Attachments",
-                         "Environment",
-                         "Severity",
-                         "Priority",
-                         "Author",
-                         "Date"
-                        ]
+{"bug_report_001":{"ID":"BR001",
+                         "Title/Summary":"The trading platform page is opened by clicking buttons [Go to platform] and [Add to favourite] in any page of any trading instrument of menu section [Markets]",
+                         "Preconditions":{
+                                           "pr1":"Navigate to capital.com",
+                                           "pr2":"User is authorized"
+                                         },
+                         "Steps_to_reproduce":{
+                                             "str1":"Hover over the menu section [Markets]",
+                                             "str2":"Click menu item [All markets / Forex / Indices / Cryptocurrencies (exept FCA) / Commodities / Shares]",
+                                             "str3":"Click any traiding instrument",
+                                             "str4":"Click button [Add to favoruite]"
+                                             },
+                         "Expected_result":"The page of the corresponding trading instrument on the trading platform is opened",
+                         "Actual_result":"The trading platform page is opened",
+                         "Attachments":"https://drive.google.com/file/d/1FjY5ugvYxGnCBlzz8LXtwbbBRZoxhxfr/view?usp=sharing",
+                         "Environment":"Win 11 Chrome 116",
+                         "Severity":"Medium",
+                         "Priority":"Minor",
+                         "Author":"Mariia_Nevzorova",
+                         "Date":"11_sep_2023"
+  }
 }
